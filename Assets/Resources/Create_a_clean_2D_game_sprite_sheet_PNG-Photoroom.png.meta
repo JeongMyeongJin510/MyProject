@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 67910b4f97815a64a857d417ba05c361
+guid: 7a3eaa7f35d8e644f9cdb8564bf623d4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Gemini_Generated_Walking_Image-Photoroom_0
+      name: Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 113
-        y: 371
-        width: 152
-        height: 303
+        x: 83
+        y: 679
+        width: 288
+        height: 535
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab577446ab3a2c548913f5580c3d0452
-      internalID: -1757132196
+      spriteID: 83a53053ea40bf24a901851160a4bd09
+      internalID: -882794734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gemini_Generated_Walking_Image-Photoroom_1
+      name: Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_1
       rect:
         serializedVersion: 2
-        x: 463
-        y: 372
-        width: 155
-        height: 302
+        x: 498
+        y: 674
+        width: 271
+        height: 543
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b82a922aa54c8ae47b23a57a7c0ec09a
-      internalID: -80943858
+      spriteID: 41a780a12c73ed54b981ca1c9f771d1a
+      internalID: 1851259880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gemini_Generated_Walking_Image-Photoroom_2
+      name: Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_2
       rect:
         serializedVersion: 2
-        x: 823
-        y: 372
-        width: 162
-        height: 303
+        x: 887
+        y: 682
+        width: 278
+        height: 545
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c6e7d7d02a304847a6bca5c699239c7
-      internalID: -1399472123
+      spriteID: 71f3b21cac1179047b5f15e2167c4770
+      internalID: 252346739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gemini_Generated_Walking_Image-Photoroom_3
+      name: Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_3
       rect:
         serializedVersion: 2
-        x: 1190
-        y: 371
-        width: 152
-        height: 304
+        x: 1248
+        y: 676
+        width: 302
+        height: 541
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +204,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df8848c6363f9484685a8d5ba1aea230
-      internalID: -1469706715
+      spriteID: 07dc4b54429bec8449fa7fa4a35343ef
+      internalID: 266200810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gemini_Generated_Walking_Image-Photoroom_4
+      name: Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_4
       rect:
         serializedVersion: 2
-        x: 104
-        y: 0
-        width: 173
-        height: 328
+        x: 1656
+        y: 676
+        width: 292
+        height: 540
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 205c8deb5f7d20444834c0946214ed17
-      internalID: -1399906375
+      spriteID: fe2c2c8bdd94d79459c75211dc1fba17
+      internalID: -729423590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gemini_Generated_Walking_Image-Photoroom_5
+      name: Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_5
       rect:
         serializedVersion: 2
-        x: 479
-        y: 11
-        width: 164
-        height: 319
+        x: 2047
+        y: 679
+        width: 278
+        height: 538
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +248,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfe43553d21222c4688c6f0c8a17c488
-      internalID: -265420305
+      spriteID: 0d4239de5ce713149b52e32cb296ba6d
+      internalID: 820698723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gemini_Generated_Walking_Image-Photoroom_6
+      name: Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_6
       rect:
         serializedVersion: 2
-        x: 833
-        y: 14
-        width: 160
-        height: 320
+        x: 129
+        y: 70
+        width: 296
+        height: 558
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +270,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 039c077867973a143b58e9d5a203bf3d
-      internalID: 952285384
+      spriteID: 9eedd2db90b4d154888cfa4537a0aadf
+      internalID: -1938353241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Gemini_Generated_Walking_Image-Photoroom_7
+      name: Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_7
       rect:
         serializedVersion: 2
-        x: 1208
-        y: 10
-        width: 155
-        height: 321
+        x: 696
+        y: 75
+        width: 297
+        height: 550
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +292,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d071737e753b6845ae912fe0ef74fd9
-      internalID: -1434767696
+      spriteID: 75713e099a8485c4d88acdaa02334e97
+      internalID: -354080949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_9
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 69
+        width: 281
+        height: 556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc16f25f8171c1047a53bf0a1a1df037
+      internalID: 1049294579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_10
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 77
+        width: 311
+        height: 551
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4394e33eeedc6de48978c94e2539fd3f
+      internalID: 1937676224
       vertices: []
       indices: 
       edges: []
@@ -302,7 +346,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 2ee1dfda02fb87942833de98c6a0463f
+    spriteID: 65befc520c5895f43a59bf7231831fb8
     internalID: 0
     vertices: []
     indices: 
@@ -311,19 +355,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries:
-      - key: SpriteEditor.SliceOnImport
-        value: False
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":1.0,"y":1.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":2.0},"gridSpriteSize":{"x":400.0,"y":670.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Gemini_Generated_Walking_Image-Photoroom_0: -1757132196
-      Gemini_Generated_Walking_Image-Photoroom_1: -80943858
-      Gemini_Generated_Walking_Image-Photoroom_2: -1399472123
-      Gemini_Generated_Walking_Image-Photoroom_3: -1469706715
-      Gemini_Generated_Walking_Image-Photoroom_4: -1399906375
-      Gemini_Generated_Walking_Image-Photoroom_5: -265420305
-      Gemini_Generated_Walking_Image-Photoroom_6: 952285384
-      Gemini_Generated_Walking_Image-Photoroom_7: -1434767696
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_0: -882794734
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_1: 1851259880
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_10: 1937676224
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_11: 749654898
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_2: 252346739
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_3: 266200810
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_4: -729423590
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_5: 820698723
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_6: -1938353241
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_7: -354080949
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_8: 1035020121
+      Create_a_clean_2D_game_sprite_sheet_PNG-Photoroom_9: 1049294579
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
