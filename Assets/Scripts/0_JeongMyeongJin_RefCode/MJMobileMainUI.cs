@@ -18,9 +18,8 @@ public class MJMobileMainUI : MonoBehaviour
         Button_StartCommand.BindOnClickButtonEvent(OnClick_StartCommand);
         Button_OpenQuest.BindOnClickButtonEvent(OnClick_OpenQuest);
         Button_Profile.BindOnClickButtonEvent(OnClick_Profile);
-
-
     }
+  
 
     public void OnClick_StartCommand()
     {
