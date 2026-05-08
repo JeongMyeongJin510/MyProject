@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class LoadSpriteTest : MonoBehaviour
 {
     [SerializeField] private Image Image_LoadSampleTest;
 
