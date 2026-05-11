@@ -8,6 +8,7 @@ public class MJMobileMainUI : MonoBehaviour
     public DaniTechUIButton Button_StartCommand;
     public DaniTechUIButton Button_OpenQuest;
     public DaniTechUIButton Button_Profile;
+    public DaniTechUIButton Button_Contributiveness;
 
 
 
@@ -18,8 +19,10 @@ public class MJMobileMainUI : MonoBehaviour
         Button_StartCommand.BindOnClickButtonEvent(OnClick_StartCommand);
         Button_OpenQuest.BindOnClickButtonEvent(OnClick_OpenQuest);
         Button_Profile.BindOnClickButtonEvent(OnClick_Profile);
+        Button_Contributiveness.BindOnClickButtonEvent(OnClick_Contributiveness);
+
     }
-  
+
 
     public void OnClick_StartCommand()
     {
@@ -34,5 +37,10 @@ public class MJMobileMainUI : MonoBehaviour
     public void OnClick_Profile()
     {
         DaniTechUIManager.Instance.OpenTestProfile();
+    }
+
+    public void OnClick_Contributiveness()
+    {
+        DaniTechGameManager.Inst.PlayerContributiveness(100);
     }
 }

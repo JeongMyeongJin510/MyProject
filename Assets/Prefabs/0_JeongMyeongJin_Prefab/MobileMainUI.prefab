@@ -248,7 +248,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\uC0C1\uC810 \uB450\uB465"
+  m_Text: "\uACF5\uD5CC\uB3C4"
 --- !u!1 &475346607159456435
 GameObject:
   m_ObjectHideFlags: 0
@@ -680,7 +680,7 @@ GameObject:
   - component: {fileID: 4983817151094868935}
   - component: {fileID: 9181755236672557308}
   m_Layer: 5
-  m_Name: Button_Command (2)
+  m_Name: Button_Contributiveness
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2942,6 +2942,7 @@ MonoBehaviour:
   Button_StartCommand: {fileID: 1929207687503282735}
   Button_OpenQuest: {fileID: 716810402047265678}
   Button_Profile: {fileID: 7412520694727285479}
+  Button_Contributiveness: {fileID: 9181755236672557308}
 --- !u!1 &8329651709690626719
 GameObject:
   m_ObjectHideFlags: 0

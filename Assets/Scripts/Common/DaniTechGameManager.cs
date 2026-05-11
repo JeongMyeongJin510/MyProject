@@ -39,4 +39,10 @@ public class DaniTechGameManager : MonoBehaviour
         // 추후에 한곳에서 관리할 수 있게 익스텐션으로 빼도 된다
         _playerModel.PlayerTotalExp += exp;
     }
+
+    public void PlayerContributiveness(int Contributiveness)
+    {
+        _playerModel.PlayerContributiveness += Contributiveness;
+        Debug.Log($"플레이어 공헌도 : {_playerModel.PlayerContributiveness}");
+    }
 }

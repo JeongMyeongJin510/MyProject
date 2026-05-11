@@ -50,6 +50,9 @@ public class DaniTechNetworkManager : MonoBehaviour
         var newPlayerData = new DaniTechPlayerModel();
         newPlayerData.PlayerName = "NoName";
         newPlayerData.PlayerTotalExp = 0;
+        newPlayerData.PlayerContributiveness = 0;
+
+
         return newPlayerData;
     }
 }

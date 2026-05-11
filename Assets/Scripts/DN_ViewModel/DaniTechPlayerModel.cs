@@ -18,6 +18,7 @@ public class DaniTechPlayerModel
 {
     public string PlayerName;
     public int PlayerTotalExp;
+    public int PlayerContributiveness;
     public string LastMapDataId;
     public Vector3 LastMapPosition;
 
