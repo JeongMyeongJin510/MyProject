@@ -9,6 +9,7 @@ public class MJMobileMainUI : MonoBehaviour
     public DaniTechUIButton Button_OpenQuest;
     public DaniTechUIButton Button_Profile;
     public DaniTechUIButton Button_Contributiveness;
+    public DaniTechUIButton Button_Inventory;
 
 
 
@@ -20,6 +21,8 @@ public class MJMobileMainUI : MonoBehaviour
         Button_OpenQuest.BindOnClickButtonEvent(OnClick_OpenQuest);
         Button_Profile.BindOnClickButtonEvent(OnClick_Profile);
         Button_Contributiveness.BindOnClickButtonEvent(OnClick_Contributiveness);
+        Button_Inventory.BindOnClickButtonEvent(OnClick_OpenInventory);
+
 
     }
 
@@ -42,5 +45,10 @@ public class MJMobileMainUI : MonoBehaviour
     public void OnClick_Contributiveness()
     {
         DaniTechGameManager.Inst.PlayerContributiveness(100);
+    }
+
+    public void OnClick_OpenInventory()
+    {
+        DaniTechUIManager.Instance.OpenInventory();
     }
 }

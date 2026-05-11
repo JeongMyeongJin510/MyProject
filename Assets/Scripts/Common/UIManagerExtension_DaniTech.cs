@@ -7,7 +7,8 @@ public enum DaniTechUIType
     MyProfilePopup, // 신규UI추가 1) 새로운 UIType을 추가한다
     DaniTechInventory,
     QuestUI,
-    TestProfile
+    TestProfile,
+    InventoryUI
 
 }
 
@@ -35,7 +36,9 @@ public static partial class UIManagerExtension
             case DaniTechUIType.TestProfile:
                 path = "Prefabs/UI/ProfilePopup";
                 break;
-
+            case DaniTechUIType.InventoryUI:
+                path = "Prefabs/UI/InventoryUI";
+                break;
         }
 
         return path;
@@ -126,6 +129,17 @@ public static partial class UIManagerExtension
     public static void OpenTestProfile(this DaniTechUIManager uiManger)
     {
         DaniTechUIType openUiType = DaniTechUIType.TestProfile;
+        var gObj = uiManger.GetCreatedUI(openUiType);
+
+        if (gObj != null)
+        {
+            uiManger.OpenUI(openUiType, gObj);
+        }
+    }
+
+    public static void OpenInventory(this DaniTechUIManager uiManger)
+    {
+        DaniTechUIType openUiType = DaniTechUIType.InventoryUI;
         var gObj = uiManger.GetCreatedUI(openUiType);
 
         if (gObj != null)
