@@ -1,7 +1,9 @@
-﻿using System;
+﻿using Cysharp.Threading.Tasks;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.UI;
 
 public static class GameUtil
 {
@@ -53,5 +55,36 @@ public static class GameUtil
 
         Debug.LogError($"에셋을 찾을 수 없습니다: {spriteName}");
         return null;
+    }
+
+    public static async UniTask<Sprite> LoadAndSetSpriteImage(Image targetImage, string spritePath)
+    {
+        Sprite sprite = await DaniTechResourceManager.Inst.LoadSprite(spritePath);
+        if (sprite != null)
+        {
+            targetImage.sprite = sprite;
+        }
+        return sprite;
+    }
+
+    public static async UniTaskVoid LoadAndPlayAudioClip(AudioSource audioSource, string audioPath, bool isLoop = false)
+    {
+        AudioClip clip = await DaniTechResourceManager.Inst.LoadAsset<AudioClip>(audioPath);
+        if (clip == null)
+        {
+            Debug.LogError($"{audioPath}를 찾을 수 없습니다! 어드레서블 설정이 되어 있는지 확인해주세요.");
+            return;
+        }
+
+        if(isLoop == true)
+        {
+            audioSource.clip = clip;
+            audioSource.loop = true;
+            audioSource.Play();
+        }
+        else
+        {
+            audioSource.PlayOneShot(clip);
+        }
     }
 }
