@@ -47,7 +47,7 @@ public class DaniTech_SampleGridUISlot : MonoBehaviour
                 break;
         }
 
-        var sprite = GameUtil.LoadSpriteCanBeNull(spriteName);
+        var sprite = DaniTechGameUtil.LoadSpriteCanBeNull(spriteName);
         if(sprite == null) return;
 
         Image_Icon.sprite = sprite;

@@ -31,7 +31,7 @@ public class DaniTech_SampleInventoryUI : MonoBehaviour
 
     public void OnClick_ClosePopup()
     {
-        DaniTechUIManager.Instance.CloseSpecificUI(DaniTechUIType.DaniTechInventory);
+        DaniTechUIManager.Instance.ClosePopupUI(DaniTechUIType.DNInventory);
     }
 
 

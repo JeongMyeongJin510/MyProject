@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class DaniTech_MyProfilePopup : MonoBehaviour
+public class DaniTech_MyProfilePopup : DaniTechUIBase
 {
     [SerializeField] private Text Text_Title;
     [SerializeField] private Text Text_Name;
@@ -19,12 +19,12 @@ public class DaniTech_MyProfilePopup : MonoBehaviour
     public void OnClick_Close()
     {
         // + 자기자신을 비활성화하는 것이 아니라 꼭! UI 매니저를 통해서 닫기 요청을 해주자
-        DaniTechUIManager.Instance.CloseSpecificUI(DaniTechUIType.MyProfilePopup);
+        DaniTechUIManager.Instance.ClosePopupUI(DaniTechUIType.DNMyProfilePopup);
     }
 
     public void RefreshCharacterUI(string characterDataId)
     {
-        var myHero = GameDataManager.Instance.GetCharacterData(characterDataId);
+        var myHero = DaniTechGameDataManager.Instance.GetCharacterData(characterDataId);
 
         if (myHero != null)
         {
@@ -41,7 +41,7 @@ public class DaniTech_MyProfilePopup : MonoBehaviour
             string[] skillNameList = myHero.SkillList.Split(',');
             foreach (string skillName in skillNameList)
             {
-                var skillData = GameDataManager.Instance.GetSkill(skillName);
+                var skillData = DaniTechGameDataManager.Instance.GetSkill(skillName);
                 if (skillData != null)
                 {
                     dummyDescription += $"로드된 캐릭터: {myHero.Name}는 {skillData.Name}을 갖고 있다!";

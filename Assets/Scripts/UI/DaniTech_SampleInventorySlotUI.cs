@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Cysharp.Threading.Tasks;
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
@@ -47,7 +48,7 @@ public class DaniTech_SampleInventorySlotUI : MonoBehaviour
 
     private void SetIcon(string itemDataId)
     {
-        var itemData = GameDataManager.Instance.GetDNItemData(itemDataId);
+        var itemData = DaniTechGameDataManager.Instance.GetDNItemData(itemDataId);
         if (itemData == null)
         {
             Debug.LogWarning($"Item 데이터를 불러올 수 없습니다! 경로:{itemDataId}");
@@ -62,9 +63,11 @@ public class DaniTech_SampleInventorySlotUI : MonoBehaviour
         }
 
         // + Addressable을 적용하면서 비동기로 바뀌었다
-        DaniTechResourceManager.Inst.LoadSprite(iconPath, (sprite) => {
-            Image_Icon.sprite = sprite;
-        });
+        //DaniTechResourceManager.Inst.LoadSprite(iconPath, (sprite) => {
+        //    Image_Icon.sprite = sprite;
+        //});
+
+        DaniTechGameUtil.LoadAndSetSpriteImage(Image_Icon, iconPath).Forget();
 
         //var sprite = GameUtil.LoadSpriteCanBeNull(iconPath);
         //if(sprite == null)
