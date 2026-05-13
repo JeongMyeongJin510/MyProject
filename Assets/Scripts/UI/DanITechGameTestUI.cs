@@ -27,7 +27,7 @@ public class DanITechGameTestUI : MonoBehaviour
     public void OnSubmit_Input(string str)
     {
         string inputedText = InputField_ConsoleCommand.text;
-        var characterData = GameDataManager.Instance.GetCharacterData(inputedText);
+        var characterData = DaniTechGameDataManager.Instance.GetCharacterData(inputedText);
         if (characterData != null) 
         {
             Debug.LogWarning(characterData.Name);

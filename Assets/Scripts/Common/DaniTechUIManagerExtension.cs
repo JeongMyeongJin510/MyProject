@@ -16,7 +16,10 @@ public enum DaniTechUIType
     DNMainUI,
     DNMyProfilePopup, // 신규UI추가 1) 새로운 UIType을 추가한다
     DNInventory,
-    DNLoadingUI
+    DNLoadingUI,
+    QuestUI, // 임시 사용 밑으로 전부
+    TestProfile,
+    InventoryUI
 }
 
 public static class DaniTechUIManagerExtension
@@ -94,6 +97,20 @@ public static class DaniTechUIManagerExtension
     public static void CloseLoadingUI(this DaniTechUIManager uiManager)
     {
         uiManager.CloseUI(DaniTechUIRootType.VeryFrontUI, DaniTechUIType.DNLoadingUI);
+    }
+
+    public static void OpenTestProfile(this DaniTechUIManager uiManger)
+    {
+        DaniTechUIType openUiType = DaniTechUIType.TestProfile;
+        var gObj = uiManger.OpenPopupUI(openUiType);
+        
+    }
+
+    public static void OpenInventory(this DaniTechUIManager uiManger)
+    {
+        DaniTechUIType openUiType = DaniTechUIType.InventoryUI;
+        var gObj = uiManger.OpenPopupUI(openUiType);
+       
     }
 }
 

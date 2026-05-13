@@ -34,7 +34,7 @@ public class MJMobileMainUI : MonoBehaviour
 
     public void OnClick_OpenQuest()
     {
-        DaniTechUIManager.Instance.OpenQuestUI();
+        DaniTechUIManager.Instance.OpenPopupUI(DaniTechUIType.QuestUI);
     }
 
     public void OnClick_Profile()

@@ -51,7 +51,7 @@ public class DaniTech_SampleQuestUI : MonoBehaviour
     {
         // 우선은 이렇게 쓰지만, 결국 나중에 UIManager.Inst.CloseSpecificUI(UIType.QuestUI);처럼 UI매니저한테 요청하게 된다
         // 이렇게 닫는게 아니라 this.gameObject.SetActive(false); 아래 방법으로 공식적으로 닫아 줘야 한다
-        DaniTechUIManager.Instance.CloseSpecificUI(DaniTechUIType.QuestUI);
+        DaniTechUIManager.Instance.ClosePopupUI(DaniTechUIType.QuestUI);
     }
 
     private void CreateQuestSlot(string questDataId)

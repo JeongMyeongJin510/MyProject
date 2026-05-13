@@ -48,7 +48,7 @@ public class QuestUI : MonoBehaviour
 
     public void OnClick_ClosePopup()
     {
-        DaniTechUIManager.Instance.CloseSpecificUI(DaniTechUIType.QuestUI);
+        DaniTechUIManager.Instance.CloseContentUI(DaniTechUIType.QuestUI);
     }
 
 

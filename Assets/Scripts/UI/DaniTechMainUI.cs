@@ -28,7 +28,7 @@ public class DaniTechMainUI : MonoBehaviour
 
     public void OnClicK_OpenQuest()
     {
-        DaniTechUIManager.Instance.OpenQuestUI();
+        DaniTechUIManager.Instance.OpenPopupUI(DaniTechUIType.QuestUI);
         Debug.LogWarning("몬스터 스폰");
     }
 

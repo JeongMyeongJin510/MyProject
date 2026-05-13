@@ -17,10 +17,10 @@ public class DaniTechMobileMainUI : MonoBehaviour
     public void OnClick_StartCommand()
     {
         // 이부분도 나중에 사라진다 -> 매니저가 애초에 생성될때 자동으로 해줄것임
-        GameUtil.LoadFullData();
+        DaniTechGameUtil.LoadFullData();
 
 
-        var myHero = GameDataManager.Instance.GetCharacterData("character_hellena_01");
+        var myHero = DaniTechGameDataManager.Instance.GetCharacterData("character_hellena_01");
 
         if (myHero != null)
         {
