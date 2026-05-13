@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-public class QuestUI : MonoBehaviour
+public class QuestUI : DaniTechUIBase
 {
     [SerializeField] private GameObject Prefab_QuestSlot;
     [SerializeField] private Transform Transform_QuestSlotUIRoot;
