@@ -24,12 +24,23 @@ public class DaniTechSoundManager : MonoBehaviour
     public void PlaySFX(string soundDataId)
     {
 
-        GameUtil.LoadAndPlayAudioClip(AudioSourcePlayer, soundDataId).Forget();
+        DaniTechGameUtil.LoadAndPlayAudioClip(AudioSourcePlayer, soundDataId).Forget();
     }
 
     // 배경음 재생 (교체 재생)
     public void PlayBGM(string soundDataId)
     {
-        GameUtil.LoadAndPlayAudioClip(BGMSourcePlayer, soundDataId, isLoop:true).Forget();
+        DaniTechGameUtil.LoadAndPlayAudioClip(BGMSourcePlayer, soundDataId, isLoop:true).Forget();
     }
+
+    public void StopBGM()
+    {
+        BGMSourcePlayer.Stop();
+    }
+
+    public void StopSFX()
+    {
+        AudioSourcePlayer.Stop();
+    }
+
 }
